@@ -27,7 +27,7 @@ function Button() {
   )
 }
 
-function Profile() {
+function Avatar() {
   return (
     <Image
       source={profile}
@@ -88,7 +88,7 @@ export default function App() {
 
         {visible && (
           <>
-            <Profile />
+            <Avatar />
             <Title />
           </>
         )}
